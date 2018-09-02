@@ -18,8 +18,8 @@
 }
 
 /* 드래그 박스 : 검은 바탕색 + 흰색 글씨 */
-*::selection { color:white; background:#000 !important; }
-*::-moz-selection { color:white; background:#000 !important; } /* firefox */
+*::selection { color:white; background:#FF0099 !important; }
+*::-moz-selection { color:white; background:#FF0099!important; } /* firefox */
 
 /* All a tags : hover시 기본적으로는 검정색 underline */
 /* 클래스 no_line a tags 는 underline 나타나지 않음 */
