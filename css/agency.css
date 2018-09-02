@@ -211,6 +211,13 @@ header.masthead .intro-text .intro-heading {
   font-family: "Busan";
 }
 */
+header.masthead #time{
+    font-size: 1.5vw;
+    display: block;
+    font-family: "Noto-bold";
+    text-align: right;
+    line-height: 2vw;
+}
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
