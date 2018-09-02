@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #FF0099;
 }
 .text-muted{
     color : white;
@@ -74,27 +74,27 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: magenta;
-  border-color: magenta;
+  background-color: #FF0099;
+  border-color: #FF0099;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: magenta!important;
-  border-color: magenta!important;
+  background-color: #FF0099!important;
+  border-color: #FF0099!important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 0, 255, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 153, 0.5) !important;
 }
 
 ::-moz-selection {
-  background: magenta;
+  background: #FF0099;
   text-shadow: none;
 }
 
 ::selection {
-  background: magenta;
+  background: #FF0099;
   text-shadow: none;
 }
 
@@ -126,7 +126,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: magenta;
+  color: #FF0099;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -139,7 +139,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: magenta;
+  color: #FF0099;
 }
 
 @media (min-width: 992px) {
@@ -157,7 +157,7 @@ img::-moz-selection {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-      color: black;
+    color: black;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
@@ -174,6 +174,10 @@ img::-moz-selection {
 }
 
 header.masthead {
+    position: relative;
+      margin : 0;
+      width : 100vw;
+      height : 100vh;
       text-align: left;
       color: black;
       background-image: url("../img/background.png");
@@ -196,7 +200,7 @@ header.masthead .intro-text .intro-lead-in {
     font-family: "Busan";
     line-height: 1rem;
     margin-top: 5rem;
-    color: magenta;
+    color: #FF0099;
 }
 /*
 header.masthead .intro-text .intro-heading {
@@ -210,14 +214,14 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 5rem;
+    padding-top: 10vw;
     padding-bottom: 3rem;
   }
     
   header.masthead .intro-text .intro-lead-in {
-    font-size: 7rem;
-    line-height: 2rem;
-    margin-bottom: 6rem;
+    font-size: 9vw;
+/*    line-height: 1vw;*/
+    margin-bottom: 9vw;
     font-family: "Busan";
   }
     
@@ -229,7 +233,34 @@ header.masthead .intro-text .intro-heading {
     font-family: "Busan";
   }
 }
+
+@media (max-width: 400px) {
+    
+  header.masthead{
+      width: 100%;
+      height: 100%;
+
+  }
+    
+  header.masthead .intro-text .intro-lead-in {
+    margin-top:2rem;
+    font-size: 2.8rem;
+      line-height: 0.5;
+    font-family: "Busan";
+  }
+    
+  header.masthead .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: "Busan";
+  }
+}
+
+
 #services{
+/*
     background-image: url("../img/background2.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -237,7 +268,10 @@ header.masthead .intro-text .intro-heading {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+*/
     background-size: cover;
+    background-color: #FF0099;
+    color:white;
 }
 
 
@@ -271,7 +305,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(255, 0, 255, 0.9);
+  background: rgba(255, 0, 153, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -723,5 +757,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #FF0099;
 }
