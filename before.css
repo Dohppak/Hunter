@@ -1,0 +1,226 @@
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+h6{
+    font-family: "Busan";
+    font-size:15px;
+}
+.wrapper {
+    padding: 0 10%;
+    position: relative;
+}
+
+.wrapper nav.nav {
+    height : 105px;
+    padding-top: 68px;
+}
+
+.wrapper nav.nav .return_main {
+    width: 120px;
+    height: 16px;
+}
+
+.wrapper nav.nav .return_main img {
+    display: block;
+    width: 105px;
+}
+
+.wrapper .select_tab {
+    position: absolute;
+    top: 68px;
+    right: 140px;
+    border: none;
+}
+
+.wrapper .select_tab li {
+    margin: 0 30px;
+}
+
+.wrapper .select_tab li a {
+    padding: 0;
+    font-family: HelveticaNeueLTStd-UltLt;
+    font-size : 12px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.wrapper .select_tab li.active a:hover {
+    border: none;
+}
+
+.wrapper .select_tab li.active a,
+.wrapper .select_tab li a:hover {
+    font-family: Times-bold-italic;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    background-color: transparent;
+}
+
+.wrapper .tab-content #all .all_items {
+    padding-left: 0;
+}
+
+.wrapper .tab-content #all .all_items > li {
+    height: 300px;
+/*    background-color: blanchedalmond*/
+    margin: 0 -140px 1px -140px;
+    padding: 0 140px;
+}
+
+.wrapper .tab-content #all .all_items > li:hover {
+    background-color: #f2f2f2;
+}
+
+.wrapper .tab-content #all .all_items > li div {
+    height: inherit;
+    position: relative;
+}
+
+.wrapper .tab-content #all .all_items > li div > * {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.wrapper .tab-content #all .all_items > li div:first-child p {
+    font-family: Helvetica-bold-italic;
+}
+
+.wrapper .tab-content #all .all_items > li div:first-child .title {
+    font-family: Helvetica-roman;
+    color : rgba(0,0,0,0.33);
+}
+
+.wrapper .tab-content #all .all_items > li div:last-child p {
+    font-family: Helvetica-roman;
+    color : rgba(0,0,0,0.70);
+}
+
+.wrapper .tab-content #all .all_items > li div:last-child .title {
+    font-family: Helvetica-bold;
+    color : rgba(0,0,0,0.87);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+.stage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+}
+.line {
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  overflow: hidden;
+}
+.line__content {
+  color: #EB008B;
+  font-family: "Busan";
+  font-size: 10vw;
+  font-weight: bold;
+  letter-spacing: -2px;
+  word-spacing: 6px;
+  transform: translateY(100%);
+}
+.line:nth-child(0) .line__content {
+          animation: slide-in-out 3s 0s cubic-bezier(0, 1, 1, 0) forwards;
+}
+.line:nth-child(1) .line__content {
+          animation: slide-in-out 2s 0.25s cubic-bezier(0, 1, 1, 0) forwards;
+}
+.line:nth-child(2) .line__content {
+          animation: slide-in-out 3s 0.5s cubic-bezier(0, 1, 1, 0) forwards;
+}
+.line:nth-child(3) .line__content {
+          animation: slide-in-out 3s 0.75s cubic-bezier(0, 1, 1, 0) forwards;
+}
+.line:nth-child(4) .line__content {
+          animation: slide-in-out 3s 1s cubic-bezier(0, 1, 1, 0) forwards;
+}
+
+@keyframes slide-in-out {
+  from {
+            transform: translateY(-100%);
+  }
+  to {
+            transform: translateY(100%);
+  }
+}
+
+
+.main {
+    position: relative;
+    margin : 0;
+    width : 100vw;
+    height : 100vh;
+    background-size: cover;
+}
+
+
+.main-1{
+    background: url(1%202.png) center no-repeat;
+
+}
+
+.main-2{
+    background: url(2.png) center no-repeat;
+}
+
+.main-3{
+    background: url(3.png) center no-repeat;
+}
+
+.main-4{
+    background: url(4.png) center no-repeat;
+}
+
+.wrapper .page-footer {
+    margin-top: 64px;
+    margin-bottom: 40px;
+    text-align: right;
+    font-size: 15px;
+    font-family: TimesNewRomanPS-MT;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.wrapper .page-footer span:first-child {
+    color: rgba(0, 0, 0, 0.33);
+    letter-spacing: -0.3px;
+}
+
+.wrapper .page-footer span:last-child {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.wrapper .page-footer img {
+    width: 64px;
+    height: 20px;
+    margin-left: 32px;
+}
+
+
+
+
