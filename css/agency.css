@@ -196,10 +196,10 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-    font-size: 4rem;
+    font-size: 8vw;
     font-family: "Busan";
     line-height: 1rem;
-    margin-top: 5rem;
+    margin-top: 8vw;
     color: #FF0099;
 }
 /*
@@ -217,9 +217,24 @@ header.masthead #time{
     font-family: "Noto-bold";
     text-align: right;
     line-height: 2vw;
+    
 }
 
-@media (min-width: 768px) {
+@media (max-width:2560px){
+    header.masthead .intro-text {
+        padding-top: 8vw;
+        padding-bottom: 3rem;
+        }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 8vw;
+        font-family: "Busan";
+        line-height: 1rem;
+        margin-top: 8vw;
+        color: #FF0099;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1919px) {
   header.masthead .intro-text {
     padding-top: 10vw;
     padding-bottom: 3rem;
