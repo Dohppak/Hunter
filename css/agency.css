@@ -36,6 +36,16 @@ h6 {
   font-weight: 700;
   font-family: "Busan";
 }
+.color{
+    background-color: #FF0099;
+    color: white;
+}
+
+.color h1{
+    margin-top : 1rem;
+    margin-bottom: 1rem;
+}
+
 
 section {
   padding: 100px 0;
@@ -76,6 +86,14 @@ section h3.section-subheading {
 .btn-primary {
   background-color: #FF0099;
   border-color: #FF0099;
+}
+.btn-second{
+    font-size : 2rem;
+    color: white;
+    background-color: #FF0099;
+}
+h2 #second{
+    color : white;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
